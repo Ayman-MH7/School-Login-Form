@@ -2,11 +2,17 @@ body{
     margin: 0;
     padding: 0;
     background: url(STEMAlexSkyEdited.png);
-    background-size: cover;                                                                                             
+    background-size: cover;
     background-position: center;
     font-family: sans-serif;
-    display: flex;
-    flex-wrap: wrap;
+}
+
+@media (max-width: 786px){
+    [class*="col-"] {
+        width: 80%;
+
+}
+
 }
 
 .loginbox{
@@ -20,10 +26,9 @@ body{
     transform: translate(-50%,-50%);
     box-sizing: border-box;
     padding: 70px 30px;
-    border-radius: 10px;
-    display: flex;
+    diplay: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    border-radius: 10px;
 }
 
 .avatar{
@@ -33,6 +38,8 @@ body{
     position: Absolute;
     top: -70px;
     left: calc(50% - 62px);
+    justify-content: center;
+
 }
 
 h1{
@@ -76,7 +83,7 @@ h1{
 .loginbox input[type="submit"]:hover
 {
     cursor: pointer;
-    background: rgb(37, 235, 30);
+    background: rgb(30, 235, 150);
     color: #000;
 }
 .loginbox a{
@@ -84,75 +91,9 @@ h1{
     font-size: 12px;
     line-height: 20px;
     color: darkgrey;
-    text-align: center;
 }
 
 .loginbox a:hover
 {
-    color: rgb(62, 206, 43);
+    color: #ffc107;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
